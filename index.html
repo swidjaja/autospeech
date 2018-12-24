@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Spelling Bee</title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <header>
+      <nav></nav>
+    </header>
+    <main role="main">
+      <div class="content content--left">
+        <h2>Stats</h2>
+        <div class="current-stat current-stat--grade">
+          <span>Current Grade: </span>
+          <span class="current-stat-value" id="currentGrade"></span>
+        </div>
+        <div class="current-stat current-stat--level">
+          <span>Current Difficulty: </span>
+          <span class="current-stat-value" id="currentLevel"></span>
+        </div>
+        <div class="prev-stat prev-stat--word">
+          <span>Previous Word: </span>
+          <span class="prev-stat-value" id="previousWord"></span>
+        </div>
+        <div class="current-stat current-stat--word">
+          <span>Current Word: </span>
+          <span class="current-stat-value" id="currentWord"></span>
+        </div>
+        <div class="next-stat next-stat--word">
+          <span>Next Word: </span>
+          <span class="next-stat-value" id="nextWord"></span>
+        </div>
+      </div>
+      <div class="content content--center">
+        <h2>Wrong words (<span class="wrong-count">0</span>)</h2>
+        <ul class="wrong-words"></ul>
+      </div>
+      <div class="content content--right">
+        <div class="ctas">
+          <h2>Keyboard Keys</h2>
+          <ul class="instructions">
+            <li class="instruction">Left keypad - Previous word</li>
+            <li class="instruction">Right keypad - Next word</li>
+            <li class="instruction">Enter - speak current word</li>
+            <li class="instruction">1 - Switch to grade 1</li>
+            <li class="instruction">2- Switch to grade 2</li>
+            <li class="instruction">e - Switch to easy</li>
+            <li class="instruction">a - Switch to average</li>
+            <li class="instruction">h - Switch to hard</li>
+            <li class="instruction">m - Mark word as incorrect</li>
+            <li class="instruction">c - Clear wrong words</li>
+            <li class="instruction">s - Save current progress</li>
+            <li class="instruction">d - Clear saved current progress</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <footer role="contentinfo">
+    </footer>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>

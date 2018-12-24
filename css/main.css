@@ -1,0 +1,63 @@
+.ctas {
+  display: inline-block;
+}
+
+.current-stat,
+.prev-stat,
+.next-stat {
+  margin: 10px 0;
+}
+
+.instructions {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.instruction {
+  padding-bottom: 5px;
+}
+
+.prev-stat-value,
+.next-stat-value {
+  font-size: 20px;
+}
+
+.current-stat-value {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+main {
+  padding: 0 20px;
+  font-size: 1.1em;
+  display: flex;
+}
+
+
+.content--left {
+  width: 40%;
+}
+
+.content--center,
+.content--right {
+  width: 30%;
+}
+.wrong-count {
+  color: red;
+  font-size: 18px;
+}
+
+.wrong-word {
+  color: red;
+  padding-bottom: 10px;
+}
+
+.wrong-words {
+  list-style-type: none;
+  padding: 0;
+}
+
+h2 {
+  text-decoration: underline;
+}
