@@ -28,8 +28,6 @@ speech.rate = 0.7;
 // speech.pitch = 1;
 
 let allVoices;
-let enUsVoice;
-let enGbVoice;
 
 function getPrettyGradeName(gradeName) {
   switch (gradeName) {
@@ -314,8 +312,6 @@ function onUiStarted() {
 
 window.speechSynthesis.onvoiceschanged = function() {
   allVoices = window.speechSynthesis.getVoices();
-  enUsVoice = allVoices[0];
-  enGbVoice = allVoices[17];
-  console.log(allVoices);
+  // console.log(allVoices);
   onUiStarted();
 }
