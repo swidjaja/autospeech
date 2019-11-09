@@ -108,9 +108,14 @@ function speakCurrent() {
   if (wordToSpeak === 'address' || wordToSpeak === 'awoke' || 
       wordToSpeak === 'world' || wordToSpeak === 'calf' ||
       wordToSpeak === 'donkey' || wordToSpeak === 'kindly' ||
-      wordToSpeak === 'nook' || wordToSpeak === 'coinage') {
+      wordToSpeak === 'nook' || wordToSpeak === 'coinage' ||
+      wordToSpeak === 'sheep' || wordToSpeak === 'took' ||
+      wordToSpeak === 'tool' || wordToSpeak === 'weep' ||
+      wordToSpeak === 'went' || wordToSpeak === 'anger' ||
+      wordToSpeak === 'doing' || wordToSpeak === 'greed') {
     speech.voice = allVoices[17];
-  } else if (wordToSpeak === 'themselves') {
+  } else if (wordToSpeak === 'themselves' || wordToSpeak ==='arch' ||
+    wordToSpeak === 'called' || wordToSpeak === 'dance') {
     speech.voice = allVoices[1];
   } else {
     speech.voice = allVoices[0];
